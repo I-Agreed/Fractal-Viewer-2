@@ -1,0 +1,1 @@
+g++ main.cpp -o main.exe -IC:\mingw_dev_lib\SFML-2.5.1\include -IC:\mingw_dev_lib\mpir\lib\x64\Debug -LC:\mingw_dev_lib\SFML-2.5.1\lib -LC:\mingw_dev_lib\mpir\lib\x64\Debug -lsfml-graphics -lsfml-window -lsfml-system -lmpirxx -lmpir

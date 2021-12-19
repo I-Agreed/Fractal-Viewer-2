@@ -1,0 +1,3 @@
+C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/build/CMakeFiles/Fractal.dir
+C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/build/CMakeFiles/edit_cache.dir
+C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/build/CMakeFiles/rebuild_cache.dir
