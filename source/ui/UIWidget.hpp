@@ -24,6 +24,6 @@ namespace IA {
 
         virtual void render(sf::RenderWindow *win) {} // to get overridden by inherited struct
 
-        virtual void handleEvent(UIEvent event) {} // to get overridden by inherited struct
+        virtual void handle_event(UIEvent event) {} // to get overridden by inherited struct
     };
 }
