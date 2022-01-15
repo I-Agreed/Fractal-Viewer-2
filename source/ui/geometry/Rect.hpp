@@ -1,5 +1,5 @@
 #pragma once
-#include <math.h>
+#include <algorithm>
 #include "Vector2.hpp"
 
 namespace IA {
@@ -64,19 +64,19 @@ namespace IA {
         // Returns True if the two rectangles intersect, excluding if they share an edge
         bool intersect(Rect<T> other) {
             // Left x, Right x, Top y, Bottom y
-            double lx = math::max(math::min(p1.x, p2.x), math::min(other.p1.x, other.p2.x));
-            double rx = math::min(math::max(p1.x, p2.x), math::max(other.p1.x, other.p2.x));
-            double ty = math::max(math::min(p1.y, p2.y), math::min(other.p1.y, other.p2.y));
-            double by = math::min(math::max(p1.y, p2.y), math::max(other.p1.y, other.p2.y));
+            double lx = std::max(std::min(p1.x, p2.x), std::min(other.p1.x, other.p2.x));
+            double rx = std::min(std::max(p1.x, p2.x), std::max(other.p1.x, other.p2.x));
+            double ty = std::max(std::min(p1.y, p2.y), std::min(other.p1.y, other.p2.y));
+            double by = std::min(std::max(p1.y, p2.y), std::max(other.p1.y, other.p2.y));
             return lx < rx && ty < by;
         }
 
         // Returns the intersection of two rectangles (doesn't check if they actually intersect)
         Rect<T> intersection(Rect<T> other) {
-            double lx = math::max(math::min(p1.x, p2.x), math::min(other.p1.x, other.p2.x));
-            double rx = math::min(math::max(p1.x, p2.x), math::max(other.p1.x, other.p2.x));
-            double ty = math::max(math::min(p1.y, p2.y), math::min(other.p1.y, other.p2.y));
-            double by = math::min(math::max(p1.y, p2.y), math::max(other.p1.y, other.p2.y));
+            double lx = std::max(std::min(p1.x, p2.x), std::min(other.p1.x, other.p2.x));
+            double rx = std::min(std::max(p1.x, p2.x), std::max(other.p1.x, other.p2.x));
+            double ty = std::max(std::min(p1.y, p2.y), std::min(other.p1.y, other.p2.y));
+            double by = std::min(std::max(p1.y, p2.y), std::max(other.p1.y, other.p2.y));
             return Rect(lx, ty, rx, by);
         }
 
@@ -93,7 +93,7 @@ namespace IA {
         #ifdef SFML_SYSTEM_HPP // convert to SFML Rectangle
         template <typename C>
         operator sf::Rect<C>() {
-            return sf::Rect<C>(x, y);
+            return sf::Rect<C>(p1, p2);
         }
 
         //Converting Constructor

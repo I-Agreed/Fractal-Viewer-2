@@ -1,5 +1,5 @@
 /*
-A header file to include all of the widget headers
+A header file to include all of the widget headers and define all the structs
 
 Base Widget class:
 
@@ -9,7 +9,7 @@ Base Widget class:
 #include <SFML/Graphics.hpp>
 
 namespace IA {
-    class Name: public UIWidget {
+    struct Name: public UIWidget {
 
         Name(int x, int y, int w, int h): 
         UIWidget(x, y, w, h) {
@@ -25,5 +25,9 @@ namespace IA {
 */
 
 #pragma once
+
+namespace IA {
+    struct Canvas;
+}
 
 #include "Canvas.hpp"

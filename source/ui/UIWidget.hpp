@@ -1,13 +1,14 @@
 #pragma once
 
 #include <vector>
+#include <SFML/Window.hpp>
 #include "IAUI.hpp"
 
 //TODO: get rect class and make widget have a bounding box
 // make event system for widges
 // make focus system
 namespace IA {
-    struct UIWidget{
+    struct UIWidget {
 
         Rect<int> box;
         std::vector<UIEvent> events;
@@ -21,6 +22,6 @@ namespace IA {
             box = Rect<int>(x, y, x + w, y + h);
         }
 
-        void render(UIWindow *win); // to get overridden by inherited struct
+        virtual void render(sf::RenderWindow *win) {;} // to get overridden by inherited struct
     };
 }

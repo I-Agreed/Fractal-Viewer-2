@@ -1,9 +1,15 @@
-// A file to include all of the UI header files
+// A file to include all of the UI header files and define all the structs
 
 #pragma once
 
-#include "UIEvent.hpp"
-#include "UIWindow.hpp"
-#include "UIWidget.hpp"
-#include "widgets/Widgets.hpp"
+namespace IA {
+    struct UIWidget;
+    struct UIWindow;
+    struct UIEvent;
+}
+
 #include "geometry/Geometry.hpp"
+#include "UIEvent.hpp"
+#include "UIWidget.hpp"
+#include "UIWindow.hpp"
+#include "widgets/Widgets.hpp"

@@ -228,10 +228,19 @@ CMakeFiles/Fractal.dir/main.cpp.obj: C:/Users/Brend/OneDrive/Desktop/github\ rep
   C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp \
   C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp \
   C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/IAUI.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Geometry.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Vector2.hpp \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/math.h \
   C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cmath \
   C:/MinGW/include/math.h \
-  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Rect.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIEvent.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIWidget.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIWindow.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Widgets.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Canvas.hpp
 
 
 C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/main.cpp:
@@ -416,6 +425,8 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/ptr_traits.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/iostream:
 
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Geometry.hpp:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tuple:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/predefined_ops.h:
@@ -554,6 +565,8 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_heap.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_tempbuf.h:
 
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Widgets.hpp:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_construct.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h:
@@ -666,6 +679,8 @@ C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp:
 
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Vector2.hpp:
+
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Glsl.inl:
@@ -674,8 +689,20 @@ C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/Text.hpp:
 
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/IAUI.hpp:
+
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/math.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cmath:
 
 C:/MinGW/include/math.h:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/geometry/Rect.hpp:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIEvent.hpp:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIWidget.hpp:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/UIWindow.hpp:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Canvas.hpp:

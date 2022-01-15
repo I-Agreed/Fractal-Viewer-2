@@ -3,22 +3,29 @@
 #include "../IAUI.hpp"
 
 namespace IA {
-    class Canvas: public UIWidget {
+    struct Canvas: public UIWidget {
         
         sf::Color bgColour;
+        sf::RenderTexture texture;
 
         Canvas(int x, int y, int w, int h, sf::Color _bgColour=sf::Color::White): 
         UIWidget(x, y, w, h) {
             bgColour = _bgColour;
+            texture.create(w, h);
+            texture.clear(bgColour);
         }
 
         // Draws the Canvas
-        void render(UIWindow *win) {
-            sf::RectangleShape bg(box.p2 - box.p1);
-            bg.move(box.p1);
-            bg.setFillColor(bgColour);
+        void render(sf::RenderWindow *win) {
+            sf::Sprite sprite(texture.getTexture());
+            sprite.move(box.p1);
 
-            win->draw(bg);
+            win->draw(sprite);
+        }
+
+        // Clears the Canvas's texture with its background colour
+        void clear() {
+            texture.clear(bgColour);
         }
     };
 }
