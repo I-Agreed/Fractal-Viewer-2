@@ -8,7 +8,7 @@ namespace IA {
     struct UIEvent;
 }
 
-#include "geometry/Geometry.hpp"
+#include "../geometry/Geometry.hpp"
 #include "UIEvent.hpp"
 #include "UIWidget.hpp"
 #include "UIWindow.hpp"

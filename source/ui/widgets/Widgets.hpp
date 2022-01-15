@@ -21,8 +21,11 @@ namespace IA {
         }
 
         // Handles Events
-        void handleEvent(UIEvent event) {
-            UIWidget::handleEvent(event);
+        void handle_event(UIEvent event) {
+            UIWidget::handle_event(event);
+
+            switch (event.type) {
+            }
         }
     };
 }

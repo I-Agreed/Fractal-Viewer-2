@@ -35,7 +35,7 @@ namespace IA {
         }
 
         // Returns ID of top widget that has the pos in its bounding box. Returns -1 if no widget is found.
-        int getWidgetFromPos(Vector2<int> pos) {
+        int get_widget_at_pos(Vector2<int> pos) {
             for (int i = widgets.size() - 1; i >= 0; i--) {
                 if (widgets[i]->box.contains(pos)) {
                     return i;
@@ -45,14 +45,14 @@ namespace IA {
         }
 
         // Changes the focused widget. Returns true if successful (widget was different).
-        bool changeFocus(int newFocus, sf::Event event=sf::Event()) {
+        bool change_focus(int newFocus, sf::Event event=sf::Event()) {
             if (newFocus != focus && newFocus != -1) {
-                raiseEvent(UIEvent(UIEventType::focusLost, event, focus));
-                raiseEvent(UIEvent(UIEventType::focusGained, event, newFocus));
+                raise_event(UIEvent(UIEventType::focusLost, event, focus));
+                raise_event(UIEvent(UIEventType::focusGained, event, newFocus));
                 focus = newFocus;
                 return true;
             } else if (newFocus == -1) {
-                raiseEvent(UIEvent(UIEventType::focusLost, event, focus));
+                raise_event(UIEvent(UIEventType::focusLost, event, focus));
                 focus = newFocus;
                 return true;
             } else {
@@ -60,11 +60,11 @@ namespace IA {
             }
         }
 
-        void raiseEvent(UIEvent event) {
+        void raise_event(UIEvent event) {
             events.push(event);
         }
 
-        void handleEvents() {
+        void handle_events() {
             UIEvent event;
             sf::Event sfmlEvent;
             while (RenderWindow::pollEvent(sfmlEvent)) {
@@ -80,8 +80,8 @@ namespace IA {
                         break;
                     } case sf::Event::EventType::MouseButtonPressed: { // Raises event and changes focus
                         Vector2<int> pos = Vector2<int>(sfmlEvent.mouseButton.x, sfmlEvent.mouseButton.y);
-                        int newFocus = getWidgetFromPos(pos);
-                        changeFocus(newFocus, sfmlEvent);
+                        int newFocus = get_widget_at_pos(pos);
+                        change_focus(newFocus, sfmlEvent);
                         event.type = UIEventType::mousePressed;
                         event.widget = focus;
 
@@ -101,7 +101,7 @@ namespace IA {
                     } case sf::Event::EventType::MouseWheelScrolled: {
                         Vector2<int> pos = Vector2<int>(sfmlEvent.mouseWheelScroll.x, sfmlEvent.mouseWheelScroll.y);
                         event.type = UIEventType::mouseScrolled;
-                        event.widget = focus;
+                        event.widget = get_widget_at_pos(pos);
 
                         if (focus != -1) event.mousePos = pos - widgets[focus]->box.p1;
                         else event.mousePos = pos;
@@ -124,18 +124,18 @@ namespace IA {
                     }
                 }
                 event.SFMLEvent = sfmlEvent;
-                raiseEvent(event);
+                raise_event(event);
             }
         }
 
         // Polls event and calls Widget's own handle method if applicable
-        bool pollUIEvent(UIEvent& event) {
-            handleEvents();
+        bool poll_UIEvent(UIEvent& event) {
+            handle_events();
             if (events.size() > 0) {
                 event = events.front();
                 events.pop();
                 if (event.widget != -1) {
-                    widgets[event.widget]->handleEvent(event);
+                    widgets[event.widget]->handle_event(event);
                 }
                 return true;
             } else {
