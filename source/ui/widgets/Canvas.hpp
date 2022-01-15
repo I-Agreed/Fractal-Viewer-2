@@ -27,5 +27,22 @@ namespace IA {
         void clear() {
             texture.clear(bgColour);
         }
+
+        // Handles Events
+        void handleEvent(UIEvent event) {
+            UIWidget::handleEvent(event);
+
+            switch (event.type) {
+                case UIEventType::focusGained: {
+                    bgColour = sf::Color::Blue;
+                    clear();
+                    break;
+                } case UIEventType::focusLost: {
+                    bgColour = sf::Color::White;
+                    clear();
+                    break;
+                }
+            }
+        }
     };
 }

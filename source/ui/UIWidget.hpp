@@ -22,6 +22,8 @@ namespace IA {
             box = Rect<int>(x, y, x + w, y + h);
         }
 
-        virtual void render(sf::RenderWindow *win) {;} // to get overridden by inherited struct
+        virtual void render(sf::RenderWindow *win) {} // to get overridden by inherited struct
+
+        virtual void handleEvent(UIEvent event) {} // to get overridden by inherited struct
     };
 }

@@ -19,7 +19,7 @@ namespace IA {
     struct UIEvent {
         UIEventType type; // type of event from enum UIEventType
         sf::Event SFMLEvent; // SFML event that triggered this event
-        int widget; // ID of Widget that triggered the event
+        int widget = -1; // ID of Widget that triggered the event
         Vector2<int> mousePos; // Position of mouse relative to widget, only applicable on mouse events.
         Vector2<int> mouseDelta; // Change in mouse position, only for mouseMoved events.
 

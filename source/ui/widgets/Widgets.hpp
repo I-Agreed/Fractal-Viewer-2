@@ -19,6 +19,11 @@ namespace IA {
         void render(UIWindow *win) {
 
         }
+
+        // Handles Events
+        void handleEvent(UIEvent event) {
+            UIWidget::handleEvent(event);
+        }
     };
 }
 

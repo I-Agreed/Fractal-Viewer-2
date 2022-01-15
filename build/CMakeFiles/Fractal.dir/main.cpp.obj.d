@@ -224,5 +224,10 @@ CMakeFiles/Fractal.dir/main.cpp.obj: \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/UIEvent.hpp \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/UIWidget.hpp \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/UIWindow.hpp \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\queue \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\deque \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_deque.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\deque.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_queue.h \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/widgets/Widgets.hpp \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/widgets/Canvas.hpp
