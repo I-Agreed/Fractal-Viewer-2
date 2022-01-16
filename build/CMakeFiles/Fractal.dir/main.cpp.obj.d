@@ -232,4 +232,12 @@ CMakeFiles/Fractal.dir/main.cpp.obj: \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/widgets/Widgets.hpp \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\ui/widgets/Canvas.hpp \
  C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\fractals/Fractals.hpp \
- C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\fractals/FractalDisplay.hpp
+ C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\fractals/functions.hpp \
+ C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\fractals/FractalDisplay.hpp \
+ C:\Users\Brend\OneDrive\Desktop\github\ repos\Fractal-Viewer-2\source\fractals/generate_fractal.hpp \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\fstream \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\basic_file.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\c++io.h \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\fstream.tcc \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\sstream.tcc

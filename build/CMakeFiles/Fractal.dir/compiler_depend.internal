@@ -248,5 +248,13 @@ CMakeFiles/Fractal.dir/main.cpp.obj
  C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/ui/widgets/Widgets.hpp
  C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/ui/widgets/Canvas.hpp
  C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/fractals/Fractals.hpp
+ C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/fractals/functions.hpp
  C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/fractals/FractalDisplay.hpp
+ C:/Users/Brend/OneDrive/Desktop/github repos/Fractal-Viewer-2/source/fractals/generate_fractal.hpp
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/fstream
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/basic_file.h
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++io.h
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream
+ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc
 

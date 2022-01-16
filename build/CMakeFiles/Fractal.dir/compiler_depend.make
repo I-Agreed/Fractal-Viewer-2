@@ -247,7 +247,15 @@ CMakeFiles/Fractal.dir/main.cpp.obj: C:/Users/Brend/OneDrive/Desktop/github\ rep
   C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Widgets.hpp \
   C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets/Canvas.hpp \
   C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/Fractals.hpp \
-  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/FractalDisplay.hpp
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/functions.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/FractalDisplay.hpp \
+  C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/generate_fractal.hpp \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/fstream \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/basic_file.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++io.h \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream \
+  C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc
 
 
 C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/main.cpp:
@@ -372,6 +380,8 @@ C:/MinGW/include/stdio.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/stdarg.h:
 
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/functions.hpp:
+
 C:/MinGW/include/stdlib.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/erase_if.h:
@@ -439,6 +449,8 @@ C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/tuple:
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/predefined_ops.h:
 
 C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/cstdint:
+
+C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/generate_fractal.hpp:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp:
 
@@ -624,6 +636,8 @@ C:/mingw_dev_lib/SFML-2.5.1/include/SFML/System/Vector2.inl:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/System/Vector3.hpp:
 
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/fstream:
+
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/System/Vector3.inl:
 
 C:/mingw_dev_lib/SFML-2.5.1/include/SFML/Window/Clipboard.hpp:
@@ -727,3 +741,13 @@ C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/ui/widgets
 C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/Fractals.hpp:
 
 C:/Users/Brend/OneDrive/Desktop/github\ repos/Fractal-Viewer-2/source/fractals/FractalDisplay.hpp:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/basic_file.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/c++io.h:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/fstream.tcc:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/sstream:
+
+C:/MinGW/lib/gcc/mingw32/9.2.0/include/c++/bits/sstream.tcc:

@@ -21,7 +21,7 @@ struct FractalDisplay: public IA::Canvas {
     IA::Vector2<double> cameraPos; // Camera pos in pixels (position of (0, 0) in number units)
 
     FractalDisplay(int x, int y, int w, int h):Canvas(x, y, w, h) {
-            zoom = 1;
+            zoom = 1.f/25;
             cameraPos = IA::Vector2<double>(w/2, h/2);
         }
 
